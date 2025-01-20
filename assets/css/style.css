@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* font-family: "Crimson Text", serif; */
+  box-sizing: border-box;
+}
+
+.hero_section{
+  background: url('../image/banner.jpg');
+  width: 100%;
+  height: 256px;
+}
+.accordion-button:focus {
+ 
+  box-shadow:none; 
+}
+.bottom_header_last_part .dropdown{
+  position: relative;
+}
+.bottom_header_last_part .dropdown:hover {
+  background-color:#555;
+}
+.bottom_header_last_part .dropdown:hover ul{
+  display: block;
+}
+.bottom_header_last_part .dropdown ul{
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #173a69;
+  display: none;
+}
+
+.bottom_header_last_part .dropdown li a{
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.bottom_header_last_part .dropdown li a:hover{
+  background-color: #555;
+  color: white;
+}
+
+  
