@@ -43,5 +43,23 @@
   background-color: #555;
   color: white;
 }
-
+.bottom_header_last_part.activeSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: greenyellow;
+  animation: fadeInDown;
+  animation-duration: .9s;
+  animation-name: test;
+}
+@keyframes test {
+  from{
+    top: -100px;
+  }
+  to{
+    top: 0;
+  }
+}
   
